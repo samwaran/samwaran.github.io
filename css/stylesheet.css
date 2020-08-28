@@ -86,11 +86,6 @@ h3 {
   padding-top: 15px;
 }
 
-.card,
-.accordian {
-  background-color: transparent;
-}
-
 @media (max-width: 768px) {
   .col-12 img {
     height: auto;
