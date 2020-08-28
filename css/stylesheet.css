@@ -83,8 +83,12 @@ h1 {
 }
 
 h3 {
-  color: aquamarine;
   padding-top: 15px;
+}
+
+.card,
+.accordian {
+  background-color: transparent;
 }
 
 @media (max-width: 768px) {

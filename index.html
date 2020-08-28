@@ -4,18 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/stylesheet.css" />
     <title>Samwaran-web-3.0</title>
   </head>
@@ -23,17 +13,10 @@
   <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
       <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#Navbar"
-        >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#"
-          ><img src="./assets/qr.png" alt=""
-        /></a>
+        <a class="navbar-brand" href="#"><img src="./assets/qr.png" alt="" /></a>
         <div class="collapse navbar-collapse" id="Navbar">
           <ul class="navbar-nav ml-auto">
             <li class="navbar-item">
@@ -65,42 +48,25 @@
     <div class="container more-mar-bottom">
       <div class="row">
         <div class="col">
-          <h1>
-            About
-          </h1>
+          <h1>About</h1>
           <p>
-            Hello! My name is Samwaran Banerjee. I am an Engineering Student,
-            majoring in Electronics and Communication Engineering. I like to
-            build technologies that make the future more sustainable. I am
-            proficient in building things and technologies like Embedded
-            systems, IoT, RPA, Robotics for agriculture, chip design, PCB
-            design, Circuit simulation & more The technologies such as
-            micro-robotics, quantum computing, AI, VR & AR are going to be huge
-            and are of my precise interest. . I do a lot of work and also have a
-            lot of fun. Want to join me in this journey? Connect on my socials
-            below
+            Hello! My name is Samwaran Banerjee. I am an Engineering Student, majoring in Electronics and Communication Engineering. I like to build technologies that make the future more sustainable. I am proficient in building things and technologies like Embedded systems, IoT,
+            RPA, Robotics for agriculture, chip design, PCB design, Circuit simulation & more The technologies such as micro-robotics, quantum computing, AI, VR & AR are going to be huge and are of my precise interest. . I do a lot of work and also have a lot of fun. Want to join
+            me in this journey? Connect on my socials below
           </p>
           <div class="act"></div>
           <div class="row align-items-center justify-content-center">
             <div class="col col-sm-2 text-center">
-              <a href="https://www.instagram.com/samwaran101/" target="_blank"
-                ><i class="fa fa-instagram"></i
-              ></a>
+              <a href="https://www.instagram.com/samwaran101/" target="_blank"><i class="fa fa-instagram"></i></a>
             </div>
             <div class="col col-sm-2 text-center">
-              <a href="https://github.com/samwaran/" target="_blank"
-                ><i class="fa fa-github"></i
-              ></a>
+              <a href="https://github.com/samwaran/" target="_blank"><i class="fa fa-github"></i></a>
             </div>
             <div class="col col-sm-2 text-center">
-              <a href="https://www.linkedin.com/in/samwaranb/" target="_blank"
-                ><i class="fa fa-linkedin-square"></i
-              ></a>
+              <a href="https://www.linkedin.com/in/samwaranb/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
             </div>
             <div class="col col-sm-2 text-center">
-              <a href="https://bit.ly/ideas-with-samwaran" target="_blank"
-                ><i class="fa fa-youtube-play"></i
-              ></a>
+              <a href="https://bit.ly/ideas-with-samwaran" target="_blank"><i class="fa fa-youtube-play"></i></a>
             </div>
           </div>
         </div>
@@ -108,130 +74,118 @@
     </div>
 
     <div class="act" id="projects"></div>
-
+    <!-- Projects-->
     <div class="container">
       <h1>Projects</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header bg-warning" id="headingOne">
+            <h1 class="mb-0">
+              <button class="btn text-dark btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Automatic Agriculture Assistant Robot</button>
+            </h1>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-12 col-sm-7 text-left">
+                  <p>
+                    Every year there are many death reports of farmers due to pesticide poising as reported by BBC, Times of India, etc. The objective is to provide an autonomous method for precise pesticide use and harvesting the final yield with the use of image processing
+                    techniques and thus formed controlled hardware. Images of pest infestation will be taken and pre-programmed commands will be given on the pesticide spraying location. Similarly, harvesting is also done automatically. The data such as “at what part the maximum
+                    pest infestation is happening” and “yield of the farm field” can further be plotted over a webpage for the use of researchers and farmers.
+                  </p>
+                </div>
+                <div class="col-12 col-sm-5 text-right">
+                  <img class="proj" src="./excerpt/Auto-agro-bot-min.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-dark" id="headingOne">
+            <h1 class="mb-0">
+              <button class="btn text-light btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">3D Printer</button>
+            </h1>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingOne">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-12 col-sm-5">
+                  <img class="proj" src="./excerpt/printer-1-min.png" alt="" />
+                </div>
+                <div class="col-12 col-sm-7">
+                  <p>
+                    Rapid Prototyping is a technology of future according to me. I have developed a cartesian printer with ability to print in 3 dimensions. This printer is developed by me using ground up parts. These crude parts are assembled to provide a simple and precise
+                    result out as a print of plastic part. Parameters of the printer: Dimensions: 500x500x300mm (approx.), Voltage: 12V, Current: 5A, Print Material: PLA, ABS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-warning" id="headingOne">
+            <h1 class="mb-0">
+              <button class="btn text-dark btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">Air Quality Meter</button>
+            </h1>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingOne">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-12 col-sm-7">
+                  <p>
+                    Air pollution has become a common phenomenon everywhere. Specially in the urban areas, air pollution is a real-life problem. A lot of people get sick only due to air pollution. In the urban areas, the increased number of petrol and diesel vehicles and the
+                    presence of industrial areas at the outskirts of the major cities are the main causes of air pollution. The problem is seriously intensified in the metropolitan cities. Also, the climate change is now apparent. The governments all around the world are taking
+                    every measure in their capacity. India has aimed to do so by 2025. To solve this problem an electronics device is developed based on Arduino, Air Quality Meter. Air Quality meter is meant to be used in house; the device will constantly measure the quality of
+                    air inside the house with the help of Air quality sensor (MQ135). The device will show the air quality in PPM on the OLED screen which is mounted on the device.
+                  </p>
+                </div>
+                <div class="col-12 col-sm-5 text-right">
+                  <img class="proj" src="./excerpt/AQM-min.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-dark" id="headingOne">
+            <h1 class="mb-0">
+              <button class="btn text-light btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">PWM Controlled MSP430Gxx Based Robot</button>
+            </h1>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingOne">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12 col-sm-5 text-left">
+                  <img class="proj" src="./excerpt/MSP-pot-bot-min.png" alt="" />
+                </div>
+                <div class="col-12 col-sm-7">
+                  <p>
+                    A Robotic car developed using MSP430Gxx Family. This is to familiarize with TI MSP development board. This project uses a potentiometer as an input to generate a duty cycle automatically to produce a speed of a vehicle using PWM control. Can look to the code
+                    below.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h3>Automatic Agriculture Assistant Robot</h3>
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-12 col-sm-7 text-left">
-          <p>
-            Every year there are many death reports of farmers due to pesticide
-            poising as reported by BBC, Times of India, etc. The objective is to
-            provide an autonomous method for precise pesticide use and
-            harvesting the final yield with the use of image processing
-            techniques and thus formed controlled hardware. Images of pest
-            infestation will be taken and pre-programmed commands will be given
-            on the pesticide spraying location. Similarly, harvesting is also
-            done automatically. The data such as “at what part the maximum pest
-            infestation is happening” and “yield of the farm field” can further
-            be plotted over a webpage for the use of researchers and farmers.
-          </p>
-        </div>
-        <div class="col-12 col-sm-5 text-right">
-          <img class="proj" src="./excerpt/Auto-agro-bot-min.png" alt="" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3>3D Printer</h3>
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-12 col-sm-5">
-          <img class="proj" src="./excerpt/printer-1-min.png" alt="" />
-        </div>
-        <div class="col-12 col-sm-7">
-          <p>
-            Rapid Prototyping is a technology of future according to me. I have
-            developed a cartesian printer with ability to print in 3 dimensions.
-            This printer is developed by me using ground up parts. These crude
-            parts are assembled to provide a simple and precise result out as a
-            print of plastic part. Parameters of the printer: Dimensions:
-            500x500x300mm (approx.), Voltage: 12V, Current: 5A, Print Material:
-            PLA, ABS
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3>Air Quality Meter</h3>
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-12 col-sm-7">
-          <p>
-            Air pollution has become a common phenomenon everywhere. Specially
-            in the urban areas, air pollution is a real-life problem. A lot of
-            people get sick only due to air pollution. In the urban areas, the
-            increased number of petrol and diesel vehicles and the presence of
-            industrial areas at the outskirts of the major cities are the main
-            causes of air pollution. The problem is seriously intensified in the
-            metropolitan cities. Also, the climate change is now apparent. The
-            governments all around the world are taking every measure in their
-            capacity. India has aimed to do so by 2025. To solve this problem an
-            electronics device is developed based on Arduino, Air Quality Meter.
-            Air Quality meter is meant to be used in house; the device will
-            constantly measure the quality of air inside the house with the help
-            of Air quality sensor (MQ135). The device will show the air quality
-            in PPM on the OLED screen which is mounted on the device.
-          </p>
-        </div>
-        <div class="col-12 col-sm-5 text-right">
-          <img class="proj" src="./excerpt/AQM-min.png" alt="" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3>PWM Controlled MSP430Gxx Based Robot</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm-5 text-left">
-          <img class="proj" src="./excerpt/MSP-pot-bot-min.png" alt="" />
-        </div>
-        <div class="col-12 col-sm-7">
-          <p>
-            A Robotic car developed using MSP430Gxx Family. This is to
-            familiarize with TI MSP development board. This project uses a
-            potentiometer as an input to generate a duty cycle automatically to
-            produce a speed of a vehicle using PWM control. Can look to the code
-            below.
-          </p>
-        </div>
-      </div>
-    </div>
+    <!--EOL Project Container-->
 
     <span class="row"></span>
     <footer class="footer">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-auto">
-            <p>© Copyright 2020 Samwaran</p>
+            <p>© Samwaran, 2020</p>
           </div>
         </div>
       </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
