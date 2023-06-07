@@ -17,14 +17,14 @@ body {
 :root {
     --prime-color: #ffffff;
     --second-color: #000000;
-    --accent-color: #0d32b7;
+    --accent-color: #4267b1ff;
     /*--color-3: #FESFS5;*/
 }
 
 .dark-theme {
     --prime-color: #000000;
     --second-color: #ffffff;
-    --accent-color: #70A6C2;
+    --accent-color: #6ca8cbff;
 }
 
 
@@ -104,6 +104,8 @@ a {
 .port_sub_title {
     text-align: center;
     width: inherit;
+    font-size: small;
+    font-style: italic;
     background: none transparent;
 }
 
