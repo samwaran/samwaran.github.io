@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Quicksand:wght@300&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--prime-color);
+    color: var(--second-color);
+}
+
+:root {
+    --prime-color: #ffffff;
+    --second-color: #000000;
+    --accent-color: #0d32b7;
+    /*--color-3: #FESFS5;*/
+}
+
+.dark-theme {
+    --prime-color: #000000;
+    --second-color: #ffffff;
+    --accent-color: #70A6C2;
+}
+
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.hero {
+    text-align: center;
+    margin: 15px 30px;
+}
+
+.hero img.logo {
+    height: 150px;
+}
+
+
+.main {
+    height: 20px;
+    margin-bottom: 60px;
+    font-size: x-large;
+    font-weight: 50em;
+    font-weight: 800;
+    width: 100%;
+}
+
+.about {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background: none transparent;
+
+}
+
+.main p {
+    margin-bottom: 10px;
+}
+
+.nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    padding: 0px 7px;
+}
+
+.nav a:hover {
+    color: #FE5F55;
+    cursor: pointer;
+}
+
+.port_title {
+    text-align: center;
+    font-family: Impact;
+    font-size: 25px;
+    width: inherit;
+    padding: 35px 0px 0px 0px;
+    background: none transparent;
+}
+
+.port_sub_title {
+    text-align: center;
+    width: inherit;
+    background: none transparent;
+}
+
+.title {
+    font-weight: bold;
+    font-size: larger;
+    text-align: justify;
+}
+
+.mod_date {
+    font-size: smaller;
+}
+
+.content {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.source-link {
+    text-align: right;
+}
+
+
+
+.container {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 50px 0px;
+    background: none transparent;
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3px, 1fr));
+}
+
+embed {
+    background: none transparent;
+}
+
+footer {
+    padding: 0;
+    margin: 50px 0px;
+    width: 100%;
+}
+
+footer .foot-content {
+    text-align: center;
+}
