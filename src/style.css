@@ -139,11 +139,6 @@ a {
 
 }
 
-.row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(3px, 1fr));
-}
-
 embed {
     background: none transparent;
 }
@@ -156,4 +151,19 @@ footer {
 
 footer .foot-content {
     text-align: center;
+}
+
+/*Adding responsiveness to the site*/
+
+@media screen and (max-width: 800px) {
+
+    body,
+    .about,
+    .container,
+    .portfolio {
+        width: inherit;
+        padding: 20px 10px;
+        margin: none;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
 }
