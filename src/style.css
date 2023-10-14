@@ -153,6 +153,8 @@ footer .foot-content {
     text-align: center;
 }
 
+
+
 /*Adding responsiveness to the site*/
 
 @media screen and (max-width: 800px) {
@@ -166,4 +168,28 @@ footer .foot-content {
         margin: none;
         /* The width is 100%, when the viewport is 800px or smaller */
     }
+
+    a {
+        color: var(--accent-color);
+        text-decoration: none;
+        align-content: center;
+        text-align: center;
+        padding: 10px 7px;
+        display: block;
+
+    }
+
+    li a {
+        display: inline;
+    }
+
+    .source-link {
+        text-align: left;
+    }
+
+    .cta {
+        visibility: hidden;
+    }
+
+
 }
