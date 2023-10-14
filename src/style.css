@@ -164,9 +164,13 @@ footer .foot-content {
     .container,
     .portfolio {
         width: inherit;
-        padding: 20px 10px;
+        padding: 5px 10px;
         margin: none;
         /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    .port_title {
+        padding: 3%;
     }
 
     a {
@@ -176,7 +180,6 @@ footer .foot-content {
         text-align: center;
         padding: 10px 7px;
         display: block;
-
     }
 
     li a {
