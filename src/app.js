@@ -9,13 +9,3 @@ icon.onclick = function () {
         icon.src = "assets/lamp-dark.png";
     }
 }
-
-$(".change").on("click", function () {
-    if ($("body").hasClass("dark-theme")) {
-        $("body").removeClass("dark-theme");
-        $(".change").icon("assets/lamp-light.png")
-    } else {
-        $("body").addClass("dark-theme");
-        $(".change").icon("assets/lamp-dark.png")
-    }
-});
