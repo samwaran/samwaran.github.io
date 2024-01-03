@@ -24,83 +24,200 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <title>Samwaran</title>
+    <link rel="icon" type="image/x-icon" href="./src/favicon.ico">
 </head>
 
 <body>
+
     <div class="main">
         <div class="hero">
-            <p>Namaste!</p>
+            <div class="slideshow-container">
+                <p class="mySlides">&#128591; Namaste!</p>
+                <p class="mySlides">&#128075; Hello!</p>
+                <p class="mySlides">&#127913; Bonjour!</p>
+            </div>
+            <script src="./src/slider.js"></script>
             <p>I'm</p>
             <p>Samwaran.</p>
         </div>
-        <div class="tag" style="font-size: medium;">
+        <div class="tag">
             <p>
                 Data whisperer by day, chart magician by night.
+            </p>
+            <p>Welcome, to my small corner on the internet.</p>
         </div>
     </div>
+
     <div class="nav">
         <ul>
             <li><a class="icon" id="icon">dark mode</a></li>
             <li>.</li>
-            <li><a href="#tools" title="tools">Tools</a></li>
+            <li><a href="#tools" title="tools">tools</a></li>
             <li>.</li>
             <li><a href="#work" title="work">work</a></li>
             <li>.</li>
-            <li><a href="#top" title="about">about</a></li>
+            <li><a href="#about" title="about">about</a></li>
+            <li>.</li>
+            <li><a href="#about" title="connect">connect</a></li>
 
         </ul>
     </div>
-    <div class="tools" id="tools">
+
+    <div id="tools">
         <div class="head">
             <h1><u>Tools.</u></h1>
-            <p>Tech stack and tools I use.</p>
+            <p>Tech stack and tools that I use.</p>
         </div>
         <div class="content">
             <div class="col">
-                <img src="./icons/python-min.png" alt="python logo">
+                <img src="./assets/icons/python-min.png" alt="python logo">
                 <h5>Python</h5>
             </div>
             <div class="col">
-                <img src="./icons/tableau-min.png" alt="Tableau logo">
+                <img src="./assets/icons/tableau-min.png" alt="Tableau logo">
                 <h5>Tableau</h5>
             </div>
             <div class="col">
-                <img src="./icons/mysql-min.png" alt="My SQL logo">
+                <img src="./assets/icons/mysql-min.png" alt="My SQL logo">
                 <h5>My SQL</h5>
             </div>
             <div class="col">
-                <img src="./icons/powerbi-min.png" alt="Power BI logo">
+                <img src="./assets/icons/powerbi-min.png" alt="Power BI logo">
                 <h5>Power BI</h5>
             </div>
 
             <div class="col">
-                <img src="./icons/pandas-min.png" alt="pandas logo">
+                <img src="./assets/icons/pandas-min.png" alt="pandas logo">
                 <h5>Pandas</h5>
             </div>
             <div class="col">
-                <img src="./icons/excel-min.png" alt="MS Excel logo">
+                <img src="./assets/icons/excel-min.png" alt="MS Excel logo">
                 <h5>MS Excel</h5>
             </div>
 
         </div>
     </div>
 
-    <div class="about">
+    <div id="work">
+        <div class="head">
+            <h1><u>work.</u></h1>
+            <p>here's what I have worked/am working on</p>
+        </div>
+        <div class="container">
+            <div class="content">
+                <!--Project 1-->
+                <div class="content-col">
+                    <img src="./assets/cover/Netflix.jpg" alt="">
+                    <div class="date-tag">JUNE 18, 2023 / Visualization, Data transformation</div>
+                    <h3>Netflix data analysis</h3>
+                    <div class="content-body">
+                        <p>Netflix is a leading OTT platform which has, revolutionized the way the world consumes
+                            content. It
+                            has evolved
+                            into a global streaming giant with a vast library of films, series, and original
+                            productions. With
+                            over 200 million subscribers across 190 countries, it has become an indispensable part of
+                            our daily
+                            lives.
+                        </p>
+                        <p>
+                            This project focuses around the dataset for Netflix about its featured
+                            titles, movies and series.
+                        </p>
+
+                        <!-- DATASET-->
+                        <p><b>Dataset aquired from:</b> Kaggle</p>
+                        </br>
+                        <!--LINK TO PROJECT-->
+                        <ul>
+                            <li><a href="https://github.com/samwaran/Netflix-data-visulized/blob/master/Media_analysis_for%20netflix.ipynb"
+                                    target="_blank">
+                                    &#128206; Jupyter Notebook</a></li>
+                            <li><a href="https://public.tableau.com/authoring/NetflixDataVisualized/Dashboard2"
+                                    target="_blank">
+                                    &#128640; Tableau Dashboard</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Project 2-->
+                <div class="content-col">
+                    <img src="./assets/cover/Aus_weather.jpg" alt="">
+                    <div class="date-tag">JUNE 07, 2023 / Weather data</div>
+                    <h3>Weather - Australia 2022</h3>
+
+                    <div class="content-body">
+                        <p>Australia's climate varies greatly throughout the 8 states and territories. The seasons are
+                            at
+                            opposite times to those in the northern hemisphere. December to February is summer; March to
+                            May is
+                            autumn; June to August is winter; and September to November is spring.
+                        </p>
+                        <p style="padding-top: 1.5%;">
+                            An exploratory data analysis using python to
+                            showcase the weather of australia on various
+                            parameters such as Temperature, Dew point, Humidity, Wind Speed.
+                        </p>
+
+                        <!-- DATASET-->
+
+                        <p><b>Dataset aquired from:</b> visualcrossing.com</p>
+                        </br>
+
+                        <!--LINK TO PROJECT-->
+
+                        <ul>
+                            <li><a href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
+                                    target="_blank">
+                                    &#128206; Jupyter Notebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Project 3-->
+                <div class="content-col">
+                    <img src="./assets/cover/car_accident.jpg" alt="">
+                    <div class="date-tag">JUNE 07, 2023 / Weather & accident data</div>
+
+                    <h3>Effects of weather on road accidents in India 2018</h3>
+
+                    <div class="content-body">
+                        <p>A dive into analysis procedure to gain insights into how different weather conditions affects
+                            the
+                            road accidents, injuries and deaths.
+                        </p>
+                        <!-- DATASET-->
+                        <p><b>Dataset aquired from:</b> data.gov.in</p>
+                        </br>
+                        <!--LINK TO PROJECT-->
+                        <ul>
+                            <li><a href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
+                                    target="_blank">
+                                    &#128206; Jupyter Notebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
         <div class="head">
             <h1><u>About.</u></h1>
             <p>know me a little.</p>
         </div>
-        <div class="ontent" style="font-size: medium;">
-            <p> A <b>data analyst</b> With 3 years of experience wrangling
-                numbers into insights so good, they deserve their own spotlight.</p>
-            </br>
-            <p>
+        <div class="container">
+            <p> A <b>data analyst</b> With 3 years of experience wrangling numbers into insights so good, they
+                deserve
+                their own spotlight.
                 <b><u>Excel?</u></b> My keyboard sings its praises. <b><u>SQL?</u></b> My queries pirouette
-                through databases. <b><u>Python?</u></b> We tango like old friends. And <b><u>Power
-                        BI?</u></b> Let's just say my dashboards are art museums for your KPIs.
+                through databases. <b><u>Python?</u></b> We tango like old friends. And <b><u>Power BI?</u></b>
+                Let's
+                just say my dashboards are art museums for your KPIs.
             </p>
             </br>
             <p>
@@ -109,149 +226,54 @@
                 data conquest.
             </p>
             </br>
-            <p>I graduated with Bachelors of technology (ECE) ---
-                worked in metrological and instrumentation industry, when I realised such possibilities in data
-                --- &
-                now I have 3 years of experience in data.
-            </p>
-        </div>
-    </div>
-
-    <div class="portfolio">
-        <div class="container">
-            <div class="port_title">About</div>
-        </div>
-
-        <!-- CONTENT START -->
-        <div class="container">
-            <div class="about" style="font-size: medium;">
-                <p> A <b>data analyst</b> With 3 years of experience wrangling
-                    numbers into insights so good, they deserve their own spotlight.</p>
-                </br>
-                <p>
-                    <b><u>Excel?</u></b> My keyboard sings its praises. <b><u>SQL?</u></b> My queries pirouette
-                    through databases. <b><u>Python?</u></b> We tango like old friends. And <b><u>Power
-                            BI?</u></b> Let's just say my dashboards are art museums for your KPIs.
-                </p>
-                </br>
-                <p>
-                    When I'm not wrangling data, you'll find me brewing chai (strong, like my analyses) and plotting
-                    my next
-                    data conquest.
-                </p>
-                </br>
-                <p>I graduated with Bachelors of technology (ECE) ---
-                    worked in metrological and instrumentation industry, when I realised such possibilities in data
-                    --- &
-                    now I have 3 years of experience in data.
-                </p>
-            </div>
-            <p style=" text-align: left; font-style: italic;">Connect with me on</p>
-            <ul style=" padding: 3% 0%; text-align: left;">
+            <p class="special">You can find me on:</p>
+            </br>
+            <ul>
                 <li><a href="https://www.linkedin.com/in/samwaranb/" target="_blank">Linkedin</a></li>
                 <li>.</li>
                 <li><a href="https://twitter.com/samwaranb" target="_blank">Twitter</a></li>
                 <li>.</li>
+                <li><a href="https://medium.com/@samwaranb" target="_blank" title="Medium Blog">medium</a>
+                <li>.</li>
                 <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=samwaranb@gmail.com"
-                        target="_blank">Email</a></li>
+                        target="_blank">Gmail</a></li>
+                <li>or</li>
+                <li><a href="mailto:samwaranb@gmail.com" target="_blank">Send Email</a></li>
             </ul>
-            <p style="text-align: left; font-style: italic;">Follow my <a href="./coming_soon.html"
-                    style="padding: 0%; display: inline;">newsletter
-                </a></p>
-
+            </br>
         </div>
-        <div class="content" style="font-size: medium;">
-            <h3>&#128187; Data Tools & tech stacks</h3>
-            <p style="text-align: left; font-style: italic; font-size: small;">I use the following data tools
-                and
-                tech stack
-            </p>
-            <div class="list" style="display: grid; grid-template-columns: auto auto; text-align: left;">
-                <p>&#8226; Python</p>
-                <p>&#8226; matplotlib</p>
-                <p>&#8226; pandas</p>
-                <p>&#8226; SQL</p>
-                <p>&#8226; Power BI</p>
-                <p>&#8226; Google Analytics</p>
-                <p>&#8226; Bigquery</p>
-                <p>&#8226; PostgreSQL</p>
-            </div>
-        </div>
-        <div class="content" style="font-size: medium;">
+        <div class="container">
             <h3>&#128736; Exploring tech.</h3>
             <div class="list" style="display: grid; grid-template-columns: auto auto; text-align: left;">
-                <p>I also know and worked on the following tools as a designer or a techie: &#8226; Arduino &
-                    Raspberry Pi &#8226;
-                    HTML & CSS &#8226; React.js &#8226; Embedded C &#8226; Adobe Photoshop &#8226; Figma</p>
+                <p>I also know and worked on the following tools as a designer or a techie:</p>
+
+            </div>
+            <div>
+                <ul>
+                    <li>- Arduino</li>
+                    <li>- Raspberry Pi</li>
+                    <li>- HTML & CSS</li>
+                    <li>- Bootstrap</li>
+                    <li>- React.js</li>
+                    <li>- Embedded C</li>
+                    <li>- Adobe Photoshop</li>
+                    <li>- Figma</li>
+                </ul>
             </div>
         </div>
-
-        <div class="content" style="font-size: medium; ">
-            <!-- Speech Bubble Slider -->
-            <h4 style="text-align: center;"> Testimonials</h4>
-            <div class="slideshow-container">
-                <div class="mySlides">
-                    <q>‘Skillful with a fast hand’ is the phrase that comes to mind when I think about Samwaran.
-                        I
-                        am
-                        especially impressed by the research skill he possesses on any topic.</q>
-                    <p>---</p>
-                    <p>Ashish Sharma</p>
-                    <p>Engagement Manager @ Nsight</p>
-                </div>
-
-                <div class="mySlides">
-                    <q>He has been excellent and has ensured timelines are followed. Extremely helpful, very
-                        quick
-                        to understand the requirements and deliver accordingly, systematic and professional
-                        approach
-                        is followed in his work</q>
-                    <p>---</p>
-                    <p>Pooja Palrecha</p>
-                    <p>Sr. Key Manager Partnerships @ Interbiz Solutions</p>
-                </div>
-
-                <div class="mySlides">
-                    <q>Samwaran did an excellent job and ensured that the work was completed on time. He was
-                        able to
-                        deliver according to the project requirements and it was a pleasure working with
-                        him.</q>
-                    <p>---</p>
-                    <p>Samarth Srivastava</p>
-                    <p>Salesforce Developer</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Dots/bullets/indicators -->
-        <div class="dot-container">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-
+        </br>
     </div>
-    </div>
+
+    <button class="top" id="myBtn" onclick="topFunction()">
+        <i class="fa-solid fa-xl fa-angle-up"></i>
+    </button>
 
     <footer>
         <div style="color: grey;" class="foot-content">
-            Made with &#x2764; by Samwaran.
-        </div>
-        <div class="foot-content">
-            <ul>
-                <li><a href="https://twitter.com/samwaranb" target="_blank">twitter</a></li>
-                <li>.</li>
-                <li><a href="https://www.linkedin.com/in/samwaranb/" target="_blank">linkedin</a></li>
-                <li>.</li>
-                <li><a href="https://medium.com/@samwaranb" target="_blank" title="Medium Blog">medium</a>
-                </li>
-            </ul>
+            Made with &#x2764; by Samwaran. &#169; 2024.
         </div>
     </footer>
     <script src="./src/app.js"></script>
-    <script src="./src/slider.js"></script>
-
-
 </body>
 
 </html>
