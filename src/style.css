@@ -190,14 +190,11 @@ li a {
         width: auto;
     }
 
-    .col,
-    .col img {
+    .col {
         flex: 50%;
-        max-width: 50%;
-
-        height: 50%;
+        max-width: 20%;
+        height: auto;
         margin: 15px;
-        align-items: center;
     }
 
     .content-col img {
