@@ -1,11 +1,11 @@
 //var data = document.getElementById("data-light");
-//var icon = document.getElementById("icon");
+var icon = document.getElementById("icon");
 icon.onclick = function () {
     //data.body.classList.toggle("dark-theme");
     document.body.classList.toggle("dark-theme");
     if (document.body.classList.contains("dark-theme")) {
-        icon.src = "assets/lamp-light.png";
+        icon.innerHTML = "light mode"
     } else {
-        icon.src = "assets/lamp-dark.png";
+        icon.innerHTML = "dark mode";
     }
 }
