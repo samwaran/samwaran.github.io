@@ -123,6 +123,7 @@ li a {
     background-color: var(--accent-color);
     color: var(--prime-color);
     cursor: pointer;
+    border: none;
     padding: 15px;
 }
 
