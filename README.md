@@ -15,4 +15,4 @@ This repository contains the source code and assets for my personal website. The
 To view the website locally or make modifications, simply clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/yourusername.github.io.git
+git clone https://github.com/samwaran/samwaran.github.io.git
