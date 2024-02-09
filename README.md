@@ -1,8 +1,18 @@
-### samwaran.github.io
-My Small corner here on the internet.
+# Personal Website
 
-It is a minimilistic approach to curate my data project into a portfolio. It can also be used for creating a blog.
+Welcome to the repository for my personal website hosted on GitHub Pages!
 
-I will be keep on updating it.
+## Overview
 
-*Feel free to use the code and modify it.*
+This repository contains the source code and assets for my personal website. The site is built using basic HTML, CSS, and JavaScript.
+
+## Website URL
+
+[Your GitHub Pages URL](https://samwaran.github.io)
+
+## Getting Started
+
+To view the website locally or make modifications, simply clone this repository:
+
+```bash
+git clone https://github.com/yourusername/yourusername.github.io.git
