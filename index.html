@@ -21,8 +21,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="src\style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500&f[]=cabinet-grotesk@800&f[]=array@401&display=swap"
         rel="stylesheet">
 
     <title>Samwaran</title>
@@ -39,13 +40,12 @@
                 <p class="mySlides">&#127913; Bonjour!</p>
             </div>
             <script src="./src/slider.js"></script>
-            <p>I'm</p>
-            <p>Samwaran.</p>
+            <p class="name">I am</p>
+            <p class="name">Samwaran Banerjee</p>
         </div>
         <div class="tag">
-            <p>A techno-craftsman.</p>
-            <p>Data whisperer by day, chart magician by night.</p>
-            <p>Welcome, to my small corner on the internet.</p>
+            <p>A techno-craftsman. Data whisperer by day, chart magician by night.</p>
+            <p>Welcome, to my crib on the internet.</p>
         </div>
     </div>
 
@@ -53,13 +53,11 @@
         <ul>
             <li><a class="icon" id="icon">dark mode</a></li>
             <li>.</li>
-            <li><a href="#tools" title="tools">tools</a></li>
-            <li>.</li>
             <li><a href="#work" title="work">work</a></li>
             <li>.</li>
             <li><a href="#about" title="about">about</a></li>
             <li>.</li>
-            <li><a href="#about" title="connect">connect</a></li>
+            <li><a href="#about" title="social">social</a></li>
 
         </ul>
     </div>
@@ -76,33 +74,28 @@
 
     <div id="tools">
         <div class="head">
-            <h1><u>Tools.</u></h1>
-            <p>Tech stack and tools that I use.</p>
+            <h1><u>tools.</u></h1>
+            <p>tech stack and tools that I use.</p>
         </div>
         <div class="content">
             <div class="col">
-                <img src="./assets/icons/python-min.png" alt="python logo">
+                <img src="./assets/svg-ico/python_icon.svg" alt="python logo">
                 <div class="col-text">Python</div>
             </div>
             <div class="col">
-                <img src="./assets/icons/tableau-min.png" alt="Tableau logo">
+                <img src="./assets/svg-ico/tableau_icon.svg" alt="Tableau logo">
                 <div class="col-text">Tableau</div>
             </div>
             <div class="col">
-                <img src="./assets/icons/mysql-min.png" alt="My SQL logo">
+                <img src="./assets/svg-ico/sql_icon.svg" alt="My SQL logo">
                 <div class="col-text">My SQL</div>
             </div>
             <div class="col">
-                <img src="./assets/icons/powerbi-min.png" alt="Power BI logo">
+                <img src="./assets/svg-ico/power bi_icon.svg" alt="Power BI logo">
                 <div class="col-text">Power BI</div>
             </div>
-
             <div class="col">
-                <img src="./assets/icons/pandas-min.png" alt="pandas logo">
-                <div class="col-text">Pandas</div>
-            </div>
-            <div class="col">
-                <img src="./assets/icons/excel-min.png" alt="MS Excel logo">
+                <img src="./assets/svg-ico/excel_icon.svg" alt="MS Excel logo">
                 <div class="col-text">MS Excel</div>
             </div>
 
@@ -123,178 +116,126 @@
                         <div class="content-head">
                             Netflix data analysis
                         </div>
-                        <div class="content-body">
-                            <div class="content-subhead">
-                                This project focuses around the dataset for Netflix about its featured
-                                titles, movies and series.
-                            </div>
-
-                            <!-- DATASET-->
-                            <div class="content-dataset">
-                                <div class="header"><b>Dataset ref.: </b></div>
-                                <div style="padding-left: 1%;">Kaggle</div>
-                            </div>
-                            <div class="content-tools">
-                                <ul>
-                                    <li class="header">Tools Used:</li>
-                                    <li>Tableau</li>
-                                    <li>Python</li>
-                                    <li>Jupyter Notebook</li>
-                                </ul>
-                            </div>
-                            <!--LINK TO PROJECT-->
-                            <ul>
-                                <li><a class="button"
-                                        href="https://github.com/samwaran/Netflix-data-visulized/blob/master/Media_analysis_for%20netflix.ipynb"
-                                        target="_blank">
-                                        <i class="fa-solid fa-code"></i> Code</a></li>
-                                <li><a class="button"
-                                        href="https://public.tableau.com/authoring/NetflixDataVisualized/Dashboard2"
-                                        target="_blank">
-                                        <i class="fa-solid fa-chart-line"></i> Dashboard</a></li>
-                            </ul>
-                        </div>
+                        <p>
+                            This project focuses around the dataset for Netflix about its featured titles, movies and
+                            series.
+                        </p>
+                        <p>
+                            <b>Tools:</b> Tableau, Python, Jupyter Notebook
+                        </p>
+                        <!--LINK TO PROJECT-->
+                        <ul>
+                            <li><a class="button"
+                                    href="https://github.com/samwaran/Netflix-data-visulized/blob/master/Media_analysis_for%20netflix.ipynb"
+                                    target="_blank">
+                                    <i class="fa-solid fa-code"></i> Code</a></li>
+                            <li><a class="button"
+                                    href="https://public.tableau.com/authoring/NetflixDataVisualized/Dashboard2"
+                                    target="_blank">
+                                    <i class="fa-solid fa-chart-line"></i> Dashboard</a></li>
+                        </ul>
                     </div>
                 </div>
+                <div class="vl"></div>
                 <!--Project 2-->
                 <div class="content-row">
                     <img src="./assets/cover/Australia.jpg" alt="sydney opera house and a sky">
                     <div class="content-col">
                         <div class="content-head">
-                            Australian weather 2022 analysis
+                            <p>Australian weather analysis</p>
                         </div>
-                        <div class="content-body">
-                            <div class="content-subhead">
-                                An exploratory data analysis using python to
-                                showcase the weather of australia on various
-                                parameters such as Temperature, Dew point, Humidity, Wind Speed.
-                            </div>
-                            <!-- DATASET-->
-                            <div class="content-dataset">
-                                <div class="header"><b>Dataset ref.: </b></div>
-                                <div style="padding-left: 1%;">visualcrossing.com</div>
-                            </div>
-
-                            <div class="content-tools">
-                                <ul>
-                                    <li class="header">Tools Used:</li>
-                                    <li>Jupyter Notebook</li>
-                                    <li>Python</li>
-                                </ul>
-                            </div>
-                            <!--LINK TO PROJECT-->
-                            <ul>
-                                <li><a class="button"
-                                        href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
-                                        target="_blank">
-                                        <i class="fa-solid fa-code"></i> Code</a></li>
-                            </ul>
-                        </div>
+                        <p>
+                            An exploratory data analysis using python to
+                            showcase the weather of australia on various
+                            parameters such as Temperature, Dew point, Humidity, Wind Speed.
+                        </p>
+                        <p><b>Tools:</b> Jupyter Notebook, Python</p>
+                        <!--LINK TO PROJECT-->
+                        <ul>
+                            <li><a class="button"
+                                    href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
+                                    target="_blank">
+                                    <i class="fa-solid fa-code"></i> Code</a></li>
+                        </ul>
                     </div>
                 </div>
+                <div class="vl"></div>
                 <!--Project 3-->
                 <div class="content-row"><img src="./assets/cover/Accident.jpg" alt="Tree fell on a on going car">
                     <div class="content-col">
                         <div class="content-head">
-                            Effects of weather on road accidents in India 2018 analysis
+                            Effects of weather on road accidents
                         </div>
-                        <div class="content-body">
-                            <div class="content-subhead">
-                                A dive into analysis procedure to gain insights into how different weather conditions
-                                affects the road accidents, injuries and deaths.
-                            </div>
-                            <!-- DATASET-->
-                            <div class="content-dataset">
-                                <div class="header"><b>Dataset ref.:</b></div>
-                                <div style="padding-left: 1%;"> data.gov.in</div>
-                            </div>
-                            <div class="content-tools">
-                                <ul>
-                                    <li class="header">Tools Used:</li>
-                                    <li>Jupyter Notebook</li>
-                                    <li>Python</li>
-                                </ul>
-                            </div>
-                            <!--LINK TO PROJECT-->
-                            <ul>
-                                <li><a class="button"
-                                        href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
-                                        target="_blank">
-                                        <i class="fa-solid fa-code"></i> Code</a></li>
-                            </ul>
-                        </div>
+                        <p>
+                            A dive into analysis procedure to gain insights into how different weather
+                            conditions
+                            affects the road accidents, injuries and deaths in India 2018 analysis.
+                        </p>
+                        <p><b>Tools: </b> Jupyter Notebook, Python</p>
+                        <!--LINK TO PROJECT-->
+                        <ul>
+                            <li><a class="button"
+                                    href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
+                                    target="_blank">
+                                    <i class="fa-solid fa-code"></i> Code</a></li>
+                        </ul>
                     </div>
                 </div>
+                <!--ADD NEW PROJECTS HERE-->
             </div>
         </div>
     </div>
 
     <div id="about">
         <div class="head">
-            <h1><u>About.</u></h1>
+            <h1><u>about.</u></h1>
             <p>know me a little.</p>
         </div>
         <div class="container">
-            <p> A <b>data analyst</b> With 3 years of experience wrangling numbers into insights so good, they
+            <p> A <b>data analyst</b> With 3+ years of experience (as of 2024) wrangling numbers into insights so good,
+                they
                 deserve
                 their own spotlight.
-                <b><u>Excel?</u></b> My keyboard sings its praises. <b><u>SQL?</u></b> My queries pirouette
-                through databases. <b><u>Python?</u></b> We tango like old friends. And <b><u>Power BI?</u></b>
-                Let's
-                just say my dashboards are art museums for your KPIs.
+            </p>
+            </br>
+            <ul class="list">
+                <li><b><u>Excel?</u></b> My keyboard sings its praises,</li>
+                <li><b><u>SQL?</u></b> My queries pirouette
+                    through databases,</li>
+                <li><b><u>Python?</u></b> We tango like old friends, and</li>
+                <li><b><u>Power BI?</u></b> Let's just say my dashboards are art museums for your KPIs.</li>
+            </ul>
             </p>
             </br>
             <p>
-                When I'm not wrangling data, you'll find me brewing chai (strong, like my analyses) and plotting
-                my next
-                data conquest.
+                When I'm not wrangling data, you'll find me brewing chai (strong, like my analyses) and figuring where
+                to travel next. I love to learn and experinece varied languages, philosophies and culture.
             </p>
             </br>
             <p class="special">You can find me on:</p>
             </br>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/samwaranb/" target="_blank">Linkedin</a></li>
-                <li>.</li>
-                <li><a href="https://twitter.com/samwaranb" target="_blank">Twitter</a></li>
-                <li>.</li>
-                <li><a href="https://medium.com/@samwaranb" target="_blank" title="Medium Blog">medium</a>
-                <li>.</li>
-                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=samwaranb@gmail.com"
-                        target="_blank">Gmail</a></li>
-                <li>or</li>
-                <li><a href="mailto:samwaranb@gmail.com" target="_blank">Send Email</a></li>
+            <ul class="link">
+                <li><a href="https://www.linkedin.com/in/samwaranb/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/samwaranb" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li><a href="https://medium.com/@samwaranb" target="_blank" title="Medium Blog"><i
+                            class="fa-brands fa-medium"></i></a>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=samwaranb@gmail.com" target="_blank"><i
+                            class="fa-solid fa-envelope"></i></a></li>
             </ul>
             </br>
         </div>
-        <div class="container">
-            <h3>&#128736; Exploring tech.</h3>
-            <div class="list" style="display: grid; grid-template-columns: auto auto; text-align: left;">
-                <p>I also know and worked on the following tools as a designer or a techie:</p>
-
-            </div>
-            <div>
-                <ul>
-                    <li>- Arduino</li>
-                    <li>- Raspberry Pi</li>
-                    <li>- HTML & CSS</li>
-                    <li>- Bootstrap</li>
-                    <li>- React.js</li>
-                    <li>- Embedded C</li>
-                    <li>- Adobe Photoshop</li>
-                    <li>- Figma</li>
-                </ul>
-            </div>
-        </div>
-        </br>
     </div>
 
-    <button class="top" id="myBtn" onclick="topFunction()">
+    <button class=" top" id="myBtn" onclick="topFunction()">
         <i class="fa-solid fa-xl fa-angle-up"></i>
     </button>
 
     <footer>
         <div style="color: grey;" class="foot-content">
-            Made with &#x2764; by Samwaran. &#169; 2024.
+            <i class="fa fa-balance-scale"></i> MIT License.
+            </br>Made with &#x2764; by Samwaran. &#169; 2024.
         </div>
     </footer>
     <script src="./src/app.js"></script>
