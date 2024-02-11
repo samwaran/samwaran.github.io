@@ -264,6 +264,11 @@ i::before {
         width: auto;
     }
 
+    .mobile-hidden {
+        display: none;
+        overflow: hidden;
+    }
+
     /*
     .col {
         flex: 50%;
