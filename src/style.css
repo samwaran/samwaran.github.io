@@ -13,7 +13,7 @@ body {
 
 :root {
     --prime-color: whitesmoke;
-    --second-color: #000000;
+    --second-color: #161616;
     --accent-color: #d24e01ff;
     --box-shadow-color: rgb(191, 191, 191);
     --prime-font: 'Satoshi', sans-serif;
@@ -23,9 +23,9 @@ body {
 }
 
 .dark-theme {
-    --prime-color: #000000;
+    --prime-color: #161616;
     --second-color: whitesmoke;
-    --accent-color: #f5c77eff;
+    --accent-color: #fd8c41;
     --box-shadow-color: black;
 }
 
