@@ -19,6 +19,7 @@ body {
     --prime-font: 'Satoshi', sans-serif;
     --head-font: 'Cabinet Grotesk', sans-serif;
     --accent-font: 'Poppins', sans-serif;
+    --invert: invert(0);
     /*--color-3: #FESFS5;*/
 }
 
@@ -27,6 +28,7 @@ body {
     --second-color: whitesmoke;
     --accent-color: #fd8c41;
     --box-shadow-color: black;
+    --invert: invert(1);
 }
 
 .main {
@@ -84,8 +86,8 @@ font-family: 'Cabinet Grotesk', sans-serif;
     width: 80px;
     height: 80px;
     flex-direction: column;
-    color: black;
-    background-color: whitesmoke;
+    color: var(--second-color);
+    background-color: var(--prime-color);
     box-shadow: 3px 3px 10px var(--box-shadow-color);
 }
 
@@ -94,6 +96,7 @@ font-family: 'Cabinet Grotesk', sans-serif;
     width: 40px;
     height: auto;
     align-self: center;
+    filter: var(--invert);
 }
 
 .col-text {
@@ -276,17 +279,10 @@ i::before {
         overflow: hidden;
     }
 
-    /*
-    .col {
-        flex: 50%;
-        max-width: 10vw;
-        height: 10%;
+    .content {
+        justify-content: space-around;
     }
 
-    .col img {
-        width: 90%;
-    }
-*/
 
     .content-row {
         display: inline-flex;
