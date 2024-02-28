@@ -154,13 +154,13 @@ li a {
 }
 
 .spaced {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .content-row {
     display: block;
     margin: 3% 0%;
-    padding: 15px;
+    padding: 30px;
     width: 25%;
     height: 450px;
     flex-direction: row;
