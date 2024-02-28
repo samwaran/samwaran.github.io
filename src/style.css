@@ -79,7 +79,7 @@ font-family: 'Cabinet Grotesk', sans-serif;
     margin: 10px;
     vertical-align: middle;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 20px;
     width: 80px;
     height: 80px;
@@ -150,21 +150,28 @@ li a {
     align-items: center;
 }
 
+.spaced {
+    justify-content: space-around;
+}
+
 .content-row {
     display: block;
     margin: 3% 0%;
     padding: 15px;
-    width: 30%;
-    height: fit-content;
+    width: 25%;
+    height: 450px;
     flex-direction: row;
     color: var(--second-color);
     text-align: center;
+    border-radius: 10px;
+    background-color: var(--prime-color);
+    box-shadow: 3px 3px 10px var(--box-shadow-color);
 }
 
 .content-row img {
     width: 50%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .content-col {
