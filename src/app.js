@@ -1,6 +1,6 @@
 //var data = document.getElementById("data-light");
 var icon = document.getElementById("icon");
-icon.onclick = function () {
+/*icon.onclick = function () {
     //data.body.classList.toggle("dark-theme");
     document.body.classList.toggle("dark-theme");
     if (document.body.classList.contains("dark-theme")) {
@@ -11,6 +11,19 @@ icon.onclick = function () {
 }
 
 let mybutton = document.getElementById("myBtn");
+*/
+
+icon.onclick = function () {
+    //data.body.classList.toggle("dark-theme");
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+        icon.src = "icons/light.png";
+    } else {
+        icon.src = "icons/dark.png";
+    }
+}
+
+/*
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () { scrollFunction() };
@@ -28,3 +41,4 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+*/

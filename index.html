@@ -22,48 +22,58 @@
     <meta name="description" content="a personal portfolio website for Samwaran Banerjee">
 
     <link rel="stylesheet" href="src\style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500&f[]=cabinet-grotesk@800&f[]=array@401&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
     <title>Samwaran</title>
     <link rel="icon" type="image/x-icon" href="./src/favicon.ico">
 </head>
 
 <body>
+    <div class="container center">
+        <nav>
+            <div class="nav">
+                <div class="slideshow-container">
+                    <p class="mySlides">&#128591; Namaste!</p>
+                    <p class="mySlides">&#128075; Hello!</p>
+                    <p class="mySlides">&#127913; Bonjour!</p>
+                </div>
+                <div class="inflex center">
+                    <img src="icons\dark.png" id="icon" class="center">
+                    <ul>
+                        <li></li>
+                        <li><a href="#work" title="work">work</a></li>
+                        <li><a href="#projects" title="about">projects</a></li>
+                        <li><a href="https://samwaranb.medium.com" target="_blank">writings</a></li>
 
-    <div class="main">
-        <div class="hero">
-            <div class="slideshow-container">
-                <p class="mySlides">&#128591; Namaste!</p>
-                <p class="mySlides">&#128075; Hello!</p>
-                <p class="mySlides">&#127913; Bonjour!</p>
+                    </ul>
+                </div>
             </div>
-            <script src="./src/slider.js"></script>
-            <p class="name">I am</p>
-            <p class="name">Samwaran Banerjee</p>
+        </nav>
+
+        <div class="main pad center">
+            <div>*best viewed on desktop*</div>
+            <div class="name">
+                <h2>Samwaran</h2>
+            </div>
+            <div class="tag">
+                <p>A data & product craftsman.</p>
+                <p>Welcome, to my small corner on the internet.</p>
+            </div>
         </div>
-        <div class="tag">
-            <p>A data & product craftsman.</p>
-            <p>Welcome, to my small corner on the internet.</p>
+
+        <div class="about">
+            <div class="bgtext">Hey, I am Samwaran, a data analyst and product strategist with 3+ years of
+                experience in
+                helping
+                multiple brands to gain insights from data, as strong as your morning coffee. When
+                I'm not wrangling data, you'll find me figuring
+                where to
+                travel next. I love to learn and experience varied languages, philosophies and culture.</div>
         </div>
-    </div>
 
-    <div class="nav">
-        <ul>
-            <li><a class="icon" id="icon">dark mode</a></li>
-            <li>.</li>
-            <li><a href="#work" title="work">work</a></li>
-            <li>.</li>
-            <li><a href="#about" title="about">about</a></li>
-            <li class="mobile-hidden">.</li>
-            <li class="mobile-hidden"><a href="#about" title="social">social</a></li>
 
-        </ul>
-    </div>
 
-    <!-- Add the Newsletter 
+        <!-- Add the Newsletter 
     <div>
         <ul>
             <li>
@@ -74,60 +84,101 @@
     </div>
 -->
 
-    <div id="tools">
-        <div class="head">
-            <h1><u>tools.</u></h1>
-            <p>tech stack and tools that I use.</p>
+        <div id="skills" class="pad">
+            <div class="section-title">
+                <h2>skills.</h2>
+            </div>
+            <div class="content">
+                <ul class="center spaced">
+                    <li><img src="logos\python-min.png" alt="">
+                        <p>Python</p>
+                    </li>
+                    <li>
+                        <img src="logos/excel-min.png" alt="">
+                        <p>MS Excel</p>
+                    </li>
+                    <li>
+                        <img src="logos/powerBI-min.png" alt="">
+                        <p>PowerBI</p>
+                    </li>
+                    <li>
+                        <img src="logos/pandas-min.png" alt="">
+                        <p>Pandas</p>
+                    </li>
+                    <li>
+                        <img src="logos/postgreSQL-min.png" alt="">
+                        <p>PostgreSQL</p>
+                    </li>
+                    <li>
+                        <img src="logos/git-min.png" alt="">
+                        <p>git</p>
+                    </li>
+                    <li>
+                        <img src="logos/AWS-min.png" alt="">
+                        <p>aws</p>
+                    </li>
+                    <li>
+                        <img src="logos/React-min.png" alt="">
+                        <p>react</p>
+                    </li>
+                    <li>
+                        <p>& more</p>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="content">
-            <div class="col">
-                <img src="./assets/svg-ico/python_icon.svg" alt="python logo">
-                <div class="col-text">Python</div>
-            </div>
-            <div class="col">
-                <img src="./assets/svg-ico/tableau_icon.svg" alt="Tableau logo">
-                <div class="col-text">Tableau</div>
-            </div>
-            <div class="col">
-                <img src="./assets/svg-ico/sql_icon.svg" alt="My SQL logo">
-                <div class="col-text">My SQL</div>
-            </div>
-            <div class="col">
-                <img src="./assets/svg-ico/power bi_icon.svg" alt="Power BI logo">
-                <div class="col-text">Power BI</div>
-            </div>
-            <div class="col">
-                <img src="./assets/svg-ico/excel_icon.svg" alt="Excel logo">
-                <div class="col-text">MS Excel</div>
-            </div>
-            <div class="col">
-                <img src="./assets/svg-ico/powerpoint_icon.svg" alt="Powerpoint logo">
-                <div class="col-text">Powerpoint</div>
-            </div>
 
+        <div id="work" class="pad">
+            <div class="section-title">
+                <h2>work.</h2>
+            </div>
+            <div class="content">
+                <ul class="">
+                    <li>
+                        <p>Mar 2020 - Dec 2020</p>
+                        <p>Sr. Data Analyst, Nsight Consulting</p>
+                        <p>Led end-to-end project cycle with requirement gathering to project delivery.</p>
+                    </li>
+                    <hr class="divider" />
+                    <li>
+                        <p>May 2021 - Jun 2023</p>
+                        <p>Data Analyst, Nsight Consulting</p>
+                        <p>Worked for data security and on-premises data warehousing with PostgreSQL &
+                            dashboard
+                            generation with Power Bi.</p>
+                    </li>
+                    <hr class="divider" />
+                    <li>
+                        <p>Dec 2020 - May 2021</p>
+                        <p>R&D Engineer, BKC WeatherSys</p>
+                        <p>ideating to prototyping for meterological & weather instruments and other
+                            hardware products.
+                        </p>
+                    </li>
+                    <hr class="divider" />
+                    <li>
+                        <p class="date">Mar 2020 - Dec 2020</p>
+                        <p class="pos">Coding Instructor, Camp K-12</p>
+                        <p class="abt">I've guided global K-12 students in coding JS and python for AR, VR and AI.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <div id="work">
-        <div class="head">
-            <h1><u>work.</u></h1>
-            <p>here's what I have worked/am working on</p>
-        </div>
-        <div class="container">
+        <div id="projects" class="pad">
+            <div class="section-title">
+                <h2>projects.</h2>
+            </div>
             <div class="content spaced">
                 <!--Project 1-->
                 <div class="content-row">
-                    <img src="./assets/cover/Netflix.jpg" alt="The netflix website on a laptop">
                     <div class="content-col">
                         <div class="content-head">
                             Netflix data analysis
                         </div>
                         <p>
-                            This project focuses around the dataset for Netflix about its featured titles, movies and
-                            series.
-                        </p>
-                        <p>
-                            <b>Tools:</b> Tableau, Python, Jupyter Notebook
+                            A Netflix data visualisation for the featured titles, movies and series from 1925 to 2021.
                         </p>
                         <!--LINK TO PROJECT-->
                         <ul>
@@ -142,99 +193,31 @@
                         </ul>
                     </div>
                 </div>
+
                 <!--Project 2-->
                 <div class="content-row">
-                    <img src="./assets/cover/Australia.jpg" alt="sydney opera house and a sky">
                     <div class="content-col">
                         <div class="content-head">
-                            <p>Australian weather analysis</p>
+                            Australian weather analysis
                         </div>
                         <p>
-                            An exploratory data analysis using python to
-                            showcase the weather of australia on various
-                            parameters such as Temperature, Dew point, Humidity, Wind Speed.
+                            An exploratory data analysis on various parameters such as Temperature, Dew point, Humidity,
+                            Wind Speed.
                         </p>
-                        <p><b>Tools:</b> Jupyter Notebook, Python</p>
                         <!--LINK TO PROJECT-->
                         <ul>
                             <li><a class="button"
-                                    href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
+                                    href="https://github.com/samwaran/Netflix-data-visulized/blob/master/Media_analysis_for%20netflix.ipynb"
                                     target="_blank">
-                                    <i class="fa-solid fa-code"></i> Code</a></li>
+                                    <img src="./logos/python-min.png" alt=""> Python</a></li>
                         </ul>
                     </div>
                 </div>
-                <!--Project 3-->
-                <div class="content-row"><img src="./assets/cover/Accident.jpg" alt="Tree fell on a on going car">
-                    <div class="content-col">
-                        <div class="content-head">
-                            Effects of weather on road accidents
-                        </div>
-                        <p>
-                            A dive into analysis procedure to gain insights into how different weather
-                            conditions
-                            affects the road accidents, injuries and deaths in India 2018 analysis.
-                        </p>
-                        <p><b>Tools: </b> Jupyter Notebook, Python</p>
-                        <!--LINK TO PROJECT-->
-                        <ul>
-                            <li><a class="button"
-                                    href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
-                                    target="_blank">
-                                    <i class="fa-solid fa-code"></i> Code</a></li>
-                        </ul>
-                    </div>
-                </div>
+
                 <!--ADD NEW PROJECTS HERE-->
             </div>
         </div>
     </div>
-
-    <div id="about">
-        <div class="head">
-            <h1><u>about.</u></h1>
-            <p>know me a little.</p>
-        </div>
-        <div class="container">
-            <p> A <b>data analyst</b> With 3+ years of experience (as of 2024) wrangling numbers into insights so good,
-                they
-                deserve
-                their own spotlight.
-            </p>
-            </br>
-            <ul class="list">
-                <li><b><u>Excel?</u></b> My keyboard sings its praises,</li>
-                <li><b><u>SQL?</u></b> My queries pirouette
-                    through databases,</li>
-                <li><b><u>Python?</u></b> We tango like old friends, and</li>
-                <li><b><u>Power BI?</u></b> Let's just say my dashboards are art museums for your KPIs.</li>
-            </ul>
-            </p>
-            </br>
-            <p>
-                When I'm not wrangling data, you'll find me brewing chai (strong, like my analyses) and figuring where
-                to travel next. I love to learn and experinece varied languages, philosophies and culture.
-            </p>
-            </br>
-            <p class="special">You can find me on:</p>
-            </br>
-            <ul class="link">
-                <li><a href="https://www.linkedin.com/in/samwaranb/" target="_blank"><i
-                            class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://twitter.com/samwaranb" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li><a href="https://medium.com/@samwaranb" target="_blank" title="Medium Blog"><i
-                            class="fa-brands fa-medium"></i></a>
-                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=samwaranb@gmail.com" target="_blank"><i
-                            class="fa-solid fa-envelope"></i></a></li>
-            </ul>
-            </br>
-        </div>
-    </div>
-
-    <button class=" top" id="myBtn" onclick="topFunction()">
-        <i class="fa-solid fa-xl fa-angle-up"></i>
-    </button>
 
     <footer>
         <div style="color: grey;" class="foot-content">
@@ -242,6 +225,9 @@
             </br>Made with &#x2764; by Samwaran. &#169; 2024.
         </div>
     </footer>
+    </div>
+
+    <script src="./src/slider.js"></script>
     <script src="./src/app.js"></script>
     <script src="https://kit.fontawesome.com/4f532c5082.js" crossorigin="anonymous"></script>
 </body>
