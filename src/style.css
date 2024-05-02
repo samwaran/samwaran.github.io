@@ -291,12 +291,13 @@ footer {
         overflow: hidden;
         width: inherit;
         list-style: none;
+        margin: 0px 10px;
     }
 
     /*--- NAVIGATION ---*/
 
     .about {
-        width: 85%;
+        width: 80%;
         padding: 30px 0px;
     }
 
