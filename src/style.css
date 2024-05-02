@@ -14,11 +14,12 @@ body {
 :root {
     --prime-color: whitesmoke;
     --second-color: #161616;
-    --accent-color: rgb(248, 125, 54);
+    --accent-color: rgb(202, 75, 1);
     --box-shadow-color: rgb(191, 191, 191);
     --prime-font: "Space Grotesk", sans-serif;
     --accent-font: 'Poppins', sans-serif;
     --invert: invert(0);
+    --link-color: rgb(42, 3, 150);
 }
 
 .dark-theme {
@@ -278,10 +279,9 @@ footer {
     margin: 30px 0px;
 }
 
-.special {
-    padding: 10px;
-    color: var(--accent-color);
-    background: var(--second-color);
+.link {
+    color: var(--link-color);
+
 }
 
 @media screen and (max-width: 800px) {
