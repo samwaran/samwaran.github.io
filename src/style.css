@@ -175,6 +175,8 @@ nav ul li a:hover {
     margin: 0px 10px;
 }
 
+/*
+
 #work .content ul li p {
     min-width: 25%;
     padding: 10px 10px;
@@ -186,7 +188,7 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-
+*/
 
 hr.divider {
     margin: 1.5em 0em;
@@ -195,7 +197,7 @@ hr.divider {
 }
 
 
-#projects .content-row ul li,
+#work .content-row ul li,
 #skills .content ul li {
     min-height: 30px;
     display: inline-flex;
@@ -208,7 +210,7 @@ hr.divider {
     margin: 10px;
 }
 
-#projects .content-row .content-col ul li a {
+#work .content-row .content-col ul li a {
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
@@ -261,11 +263,11 @@ hr.divider {
     width: 100%;
 }
 
-#projects .content-col ul {
+#work .content-col ul {
     text-align: left;
 }
 
-#projects .content-col ul li {
+#work .content-col ul li {
     display: inline-block;
     font-size: small;
     width: fit-content;
@@ -284,7 +286,7 @@ footer {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
     .container {
         scroll-behavior: smooth;
@@ -301,6 +303,10 @@ footer {
     .about {
         width: 80%;
         padding: 30px 0px;
+    }
+
+    .bgtext:after {
+        left: -20px;
     }
 
     nav ul {
