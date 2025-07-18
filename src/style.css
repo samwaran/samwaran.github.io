@@ -12,7 +12,7 @@ body {
 }
 
 :root {
-    --prime-color: #f3f3f3;
+    --prime-color: #fcfbfc;
     --second-color: #161616;
     --accent-color: rgb(248, 125, 54);
     --box-shadow-color: rgb(191, 191, 191);
@@ -216,9 +216,8 @@ hr.divider {
     display: inline-flex;
     align-items: center;
     padding: 5px 30px;
-    border: var(--second-color) solid 1.7px;
     border-radius: 50px;
-    background-color: white;
+    background-color: #f2f2f2;
     color: black;
     margin: 10px;
 }
@@ -243,15 +242,14 @@ hr.divider {
     align-items: center;
 }
 
-
-
 .content-row {
     display: block;
     margin: 1.5em 0em;
     width: 37%;
     padding: 25px;
     text-align: left;
-    border: 3px solid var(--second-color);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
     color: var(--second-color);
     background-color: var(--prime-color);
 }
@@ -287,12 +285,12 @@ hr.divider {
     padding: 3px 15px;
     margin: 0px 10px 0px 0px;
     background-color: var(--second-color);
+    box-shadow: 3px 3px 3px rgb(168, 168, 168);
     color: var(--prime-color);
 }
 
 #work .content-col ul li:hover {
     background-color: var(--accent-color);
-    color: var(--second-color);
     transition: background-color 0.5s ease;
 }
 
