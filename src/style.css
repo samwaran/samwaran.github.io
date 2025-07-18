@@ -13,28 +13,29 @@ body {
 
 :root {
     --prime-color: #fcfbfc;
-    --second-color: #161616;
-    --accent-color: rgb(248, 125, 54);
+    --second-color: #121212;
+    --accent-color: #f87d36;
     --box-shadow-color: rgb(191, 191, 191);
     --prime-font: "Space Grotesk", sans-serif;
     --accent-font: 'Poppins', sans-serif;
     --invert: invert(0);
-    --link-color: rgb(248, 125, 54);
+    --box-color: white;
 }
 
 .dark-theme {
-    --prime-color: #161616;
+    --prime-color: #121212;
     --second-color: whitesmoke;
     --accent-color: rgb(248, 125, 54);
-    --box-shadow-color: black;
+    --box-shadow-color: #424242;
     --invert: invert(1);
+    --box-color: black;
 }
 
 .special {
     padding: 10px 15px;
     border-radius: 50px;
-    color: var(--prime-color);
-    background-color: var(--second-color);
+    color: black;
+    background-color: #f2f2f2;
 }
 
 .special:hover {
@@ -110,7 +111,7 @@ nav ul,
 a {
     text-decoration: none;
     list-style-type: none;
-    color: var(--text-color);
+    color: var(--second-color);
 }
 
 nav ul li a {
@@ -122,7 +123,7 @@ nav ul li a {
 nav ul li :hover,
 nav ul li a:hover {
     border-radius: 20px;
-    background: var(--link-color);
+    background: var(--accent-color);
     transition: background-color 0.5s ease;
     color: var(--prime-color);
     cursor: pointer;
@@ -188,20 +189,6 @@ nav ul li a:hover {
     margin: 0px 10px;
 }
 
-/*
-
-#work .content ul li p {
-    min-width: 25%;
-    padding: 10px 10px;
-    font-size: 14px;
-}
-
-#work .content ul li p:first-child,
-#work .content ul li p:nth-child(2) {
-    font-weight: bold;
-}
-
-*/
 
 hr.divider {
     margin: 1.5em 0em;
@@ -209,8 +196,6 @@ hr.divider {
     border-top: 3px solid #000000;
 }
 
-
-#work .content-row ul li,
 #skills .content ul li {
     min-height: 30px;
     display: inline-flex;
@@ -222,12 +207,6 @@ hr.divider {
     margin: 10px;
 }
 
-#work .content-row .content-col ul li a {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: left;
-}
 
 .content ul li img {
     height: 20px;
@@ -242,21 +221,30 @@ hr.divider {
     align-items: center;
 }
 
-.content-row {
+.content-row{
     display: block;
-    margin: 1.5em 0em;
     width: 37%;
-    padding: 25px;
     text-align: left;
-    border: 2px solid var(--second-color);
+}
+    
+.content-row .content-col a{
+    display: block;
+    width: inherit;    
+    margin: 1.5em 0em;
+    padding: 25px;
+    box-shadow: 1px 1px 30px var(--box-shadow-color);
     border-radius: 15px;
     color: var(--second-color);
-    background-color: var(--prime-color);
+    background-color: var(--box-color);
+}
+
+.content-row .content-col a:hover{
+    background-color: var(--accent-color);
+    color: var(--prime-color);
 }
 
 .content-col {
-    text-align: left;
-    padding-left: 2%;
+    padding: 0% 0.5% 0% 0.5%;
 }
 
 .content-col p,
@@ -270,28 +258,7 @@ hr.divider {
 
 .content-head {
     font-weight: bold;
-    width: 100%;
-}
-
-#work .content-col ul {
-    text-align: left;
-}
-
-#work .content-col ul li {
-    display: inline-block;
-    font-size: small;
-    width: fit-content;
-    align-content: center;
-    padding: 3px 15px;
-    margin: 0px 10px 0px 0px;
-    background-color: var(--second-color);
-    box-shadow: 3px 3px 3px rgb(168, 168, 168);
-    color: var(--prime-color);
-}
-
-#work .content-col ul li:hover {
-    background-color: var(--accent-color);
-    transition: background-color 0.5s ease;
+    width: 90%;
 }
 
 .contact-list{
@@ -310,7 +277,6 @@ footer {
 
 
 @media screen and (max-width: 900px) {
-
     .container {
         scroll-behavior: smooth;
         overflow: hidden;
@@ -354,18 +320,22 @@ footer {
         align-items: center;
     }
 
-    .content-row {
-        width: 50%;
+    nav .nav .slideshow-container,
+    nav .nav div img {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content-row{
+        display: block;
+        max-width: 80%;
+        width: auto;
     }
 
     hr.divider {
         margin: 1.5em 3em;
         display: block;
         border-top: 3px solid #000000;
-    }
-
-    nav .nav .slideshow-container,
-    nav .nav div img {
-        margin-left: 35px;
     }
 }
