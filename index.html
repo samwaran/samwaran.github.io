@@ -1,293 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="dark">
 <head>
-    <!-- Gotta track this bad boy-->
-
-    <!-- Google tag (gtag.js) 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JT63C82EG"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-3JT63C82EG');
-    </script>
--->
-    <!--Google Analytics END-->
-    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="a personal portfolio website for Samwaran Banerjee">
-
-    <link rel="stylesheet" href="src\style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Samwaran</title>
-    <link rel="icon" type="image/x-icon" href="./src/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Samwaran</title>
 </head>
-
 <body>
-    <div class="container center">
-        <nav>
-            <div class="nav">
-                <div class="slideshow-container">
-                    <p class="mySlides">&#128591; Namaste!</p>
-                    <p class="mySlides">&#128075; Hello!</p>
-                    <p class="mySlides">&#127913; Bonjour!</p>
-                </div>
-                <div class="inflex center">
-                    <img src="icons\dark.png" id="icon" class="center">
-                    <ul class="center">
-                        <li></li>
-                        <!--<li><a href="#work" title="work">work</a></li>-->
-                        <li><a href="#work" title="projects">work</a></li>
-                        <li><a href="https://samwaranb.medium.com" target="_blank">writing</a></li>
-                        <li><a href="#contact" title="projects">contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <div class="main pad center">
-            <img src="./assets/Avatar_old.png" style="width: 150px;">
-            <div class="name">
-                <h2>Samwaran</h2>
-            </div>
-            <div class="tag">
-                <p>A data & product craftsman</p>
-                <p>from India.</p>
-            </div>
-        </div>
+<div class="pf">
 
-        <div class="about center">
-            <div class="bgtext">Welcome, to my small corner on the internet. I turn data into strategic insights. With 3+ years of experience, I help brands make smarter decisions — and when I'm not doing that, I'm exploring new cultures and ideas.
-            </div>
-        </div>
-
-        <div id="skills" class="pad">
-            <div class="section-title">
-                <h2>skills.</h2>
-            </div>
-            <div class="content">
-                <ul class="center spaced">
-                    <li><img src="logos\python-min.png" alt="">
-                        <p>Python</p>
-                    </li>
-                    <li>
-                        <img src="logos/excel-min.png" alt="">
-                        <p>MS Excel</p>
-                    </li>
-                    <li>
-                        <img src="logos/powerBI-min.png" alt="">
-                        <p>PowerBI</p>
-                    </li>
-                    <li>
-                        <img src="logos/pandas-min.png" alt="">
-                        <p>Pandas</p>
-                    </li>
-                    <li>
-                        <img src="logos/postgreSQL-min.png" alt="">
-                        <p>PostgreSQL</p>
-                    </li>
-                    <li>
-                        <img src="logos/git-min.png" alt="">
-                        <p>git</p>
-                    </li>
-                    <li>
-                        <img src="logos/AWS-min.png" alt="">
-                        <p>aws</p>
-                    </li>
-                    <li>
-                        <img src="logos/React-min.png" alt="">
-                        <p>react</p>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <p>& more</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div id="work" class="pad">
-            <div class="section-title">
-                <h2>work.</h2>
-            </div>
-            <div class="content spaced">
-
-                <!--Project 1-->
-
-                <div class="content-row">
-                    <div class="content-col">
-                        <a class="link"
-                                    href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
-                                    target="_blank">
-                        <div style="position: relative;">
-                        <div class="content-head">
-                            Road accidents & Indian weather
-                        </div>
-                        <!--
-                        <div class="content-head">
-                            <img src="./assets/cover/Accident.jpg" style="width: inherit;" alt="">
-                        </div>
-                        -->
-                        <div style="position:absolute; top: .25px; right: .25px; animation: forwards;">
-                            <img src="./icons/Linked.svg" alt="" style="width: 15px;">
-                        </div>
-                        </div>
-                        <p>
-                            An exploratory data analysis how weather dependent are road accidents in India with
-                            indian
-                            gov data from 2018.
-                        </p>
-                        <!--LINK TO PROJECT-->
-                        <p>
-                            <b>Tags:</b> Python, EDA, Jupyter Notebook
-                        </p>
-
-                    </a>
-<!--
-                        <ul>
-                            <li> <a class="link"
-                                    href="https://github.com/samwaran/Road-accident-w-indian-weather/blob/master/Road_Accident_w_weather_analysis.ipynb"
-                                    target="_blank">Read more >>
-                                </a>
-                            </li>
-                        </ul>
-                        -->
-                    </div>
-                </div>
-
-                <div class="content-row">
-                    <div class="content-col">
-                        <a href="https://github.com/samwaran/Netflix-data-visulized/blob/master/Media_analysis_for%20netflix.ipynb" target="_blank">
-                        <div style="position: relative;">
-                        <div class="content-head">
-                            Netflix data analysis
-                        </div>
-                        <!--
-                        <div class="content-head">
-                            <img src="./assets/cover/Netflix.jpg" style="width: inherit;" alt="">
-                        </div>
-                        -->
-                        <div style="position:absolute; top: .25px; right: .25px; animation: forwards;">
-                            <img src="./icons/Linked.svg" class="work-ico" style="width: 15px;">
-                        </div>
-                        </div>
-                        <p>
-                            An analysis on how Netflix released movies and TV shows over the years.  Data cleaned with python visuaised with tableau. 
-                        </p>
-                        <!--LINK TO PROJECT-->
-                        <p>
-                            <b>Tags:</b> Python, Jupyter Notebook, Tableau
-                        </p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="content-row">
-                    <div class="content-col">
-                        <a class="link"
-                                href="https://github.com/samwaran/twtr_scraper/blob/master/twtr_scraper.ipynb"
-                                target="_blank">
-                                <div style="position: relative;">
-                        <div class="content-head">
-                            Twitter Harvest
-                        </div>
-                        <div style="position:absolute; top: .25px; right: .25px; animation: forwards;">
-                            <img src="./icons/Linked.svg" class="work-ico" style="width: 15px;">
-                        </div>
-                        </div>
-                        <p>
-                            A web scraping tool effortlessly extract and capture Twitter data and store it within CSV, Xlsx or PDF formats.
-                        </p>
-                        <!--LINK TO PROJECT-->
-                        <p>
-                            <b>Tags:</b> Python, Jupyter Notebook
-                        </p>
-                        </a>
-                    </div>
-                </div>
-
-                
-
-                <div class="content-row">
-                    <div class="content-col">
-                        <a class="link" href="https://datagram-omega.vercel.app/" target="_blank">
-                        <div style="position: relative;">
-                        <div class="content-head">
-                            Datagram
-                        </div>
-                        <div style="position:absolute; top: .25px; right: .25px; animation: forwards;">
-                            <img src="./icons/Linked.svg" class="work-ico" style="width: 15px;">
-                        </div>
-                        </div>
-                        <p>
-                            a web app that transform raw data into stunning visualizations instantly, making complex insights beautifully clear.
-                        </p>
-                        <!--LINK TO PROJECT-->
-                        <p>
-                            <b>Tags:</b> HTML, css, js
-                        </p>
-                        </a>
-                    </div>
-                </div>
-                
-
-                <!--ADD NEW PROJECTS AFTER THIS-->
-            </div>
-        </div>
-
-        <div id="contact" class="contact-list pad">
-            <div class="section-title">
-                <h2>contact.</h2>
-            </div>
-            <div class="content">
-                <ul class="center spaced">
-                    <li>
-                        <a href="https://www.linkedin.com/in/samwaran" target="_blank">
-                            <i class="fa fa-linkedin"></i> LinkedIn
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:samwaran@example.com">
-                            <i class="fa fa-envelope"></i> Email
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/samwaran" target="_blank">
-                            <i class="fa fa-github"></i> GitHub
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://samwaranb.medium.com" target="_blank">
-                            <i class="fa fa-medium"></i> Medium
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div style="padding-bottom: 35px;">
-            <a class="special" href="https://arthletter.substack.com/welcome">Subscribe to my newsletter &nbsp;
-                <i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-
+  <!-- Navigation -->
+  <nav class="pf-nav">
+    <div class="pf-logo">
+      <div class="logo-dot"></div>
+      Samwaran
     </div>
-
-    <footer>
-        <div style="color: grey;" class="foot-content">
-            <i class="fa fa-balance-scale"></i> MIT License.
-            </br>Made with &#x2764; by Samwaran. &#169; 2024.
-        </div>
-    </footer>
+    <div class="nav-right">
+      <div class="nav-links">
+        <span><a href="#work">work</a></span>
+        <span><a href="#experience">exp</a></span>
+        <span><a href="https://arthletter.substack.com/welcome" target="_blank">newsletter</a></span>
+      </div>
+      <!-- Theme toggle -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="toggle-track">
+          <span class="toggle-thumb"></span>
+        </span>
+        <span class="toggle-label" id="toggleLabel">LIGHT</span>
+      </button>
     </div>
+    <button class="hamburger"
+onclick="document.querySelector('.nav-right').classList.toggle('active')">
+<span></span><span></span><span></span>
+  </button>
 
-    <script src="./src/slider.js"></script>
-    <script src="./src/app.js"></script>
-    <script src="https://kit.fontawesome.com/4f532c5082.js" crossorigin="anonymous"></script>
+  
+  </nav>
+
+
+  <!-- Hero -->
+  <section class="pf-hero">
+    <!-- background + intro -->
+    <div class="hero-bg">
+      <div class="hero-eyebrow">DATA &amp; PRODUCT CRAFTSMAN</div>
+      <div class="pf-name">Making data<br><em>matter.</em></div>
+      <div class="pf-tagline">// from India, for the internet</div>
+      <div class="pf-bio">5+ years of transforming messy datasets into actionable decisions that drive business impact. Experienced across analytics, BI, and project management, with a strong track record of improving products through fresh user insights and data-driven strategies.</div>
+    </div>
+    
+    <!-- animation -->
+    <div class="anim-container"> 
+      <div class="rings">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <!--
+      <img style="width: inherit; " src="assets\crystal.gif" alt="Animated data visualization" class="anim-gif"> 
+      -->
+    </div>
+  </section>
+
+  <!-- Skills / Stack -->
+  <section class="pf-section">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <span class="sec-title">STACK</span>
+      <div class="sec-line"></div>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-group">
+        <div class="sg-title">PROG. LANG</div>
+        <div class="tags">
+          <span class="tag">python</span>
+          <span class="tag">sql</span>
+          <span class="tag">js</span>
+          <span class="tag">embedded c</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-title">TOOLS</div>
+        <div class="tags">
+          <span class="tag">power bi</span>
+          <span class="tag">pandas</span>
+          <span class="tag">tableau</span>
+          <span class="tag">Matplotlib</span>
+          <span class="tag">scikit-learn</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-title">INFRA</div>
+        <div class="tags">
+          <span class="tag">postgres</span>
+          <span class="tag">aws</span>
+          <span class="tag">azure</span>
+          <span class="tag">git</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-title">HARDWARE</div>
+        <div class="tags">
+          <span class="tag">ATMEGA328P</span>
+          <span class="tag">TI MSP430</span>
+          <span class="tag">Arduino</span>
+          <span class="tag">Raspberry Pi</span>
+          <span class="tag">Attiny45</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="pf-section" id="experience">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <span class="sec-title">EXPERIENCE</span>
+      <div class="sec-line"></div>
+    </div>
+    <div class="exp-list">
+      <div class="exp-item">
+        <div class="exp-idx">A</div>
+        <div class="exp-body">
+          <div class="exp-co">Beehive Systems</div>
+          <div class="exp-role">Project Coordinator · 2024 → now</div>
+          <div class="exp-pills">
+            <span class="exp-pill">↑15% efficiency</span>
+            <span class="exp-pill">↓10% attrition</span>
+          </div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-idx">B</div>
+        <div class="exp-body">
+          <div class="exp-co">Nsight Consulting</div>
+          <div class="exp-role">Sr. Data Analyst · 2021 → 2023</div>
+          <div class="exp-pills">
+            <span class="exp-pill">↓25% retrieval</span>
+            <span class="exp-pill">↑25% ROI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work / Projects -->
+  <section class="pf-section" id="work">
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <span class="sec-title">WORK</span>
+      <div class="sec-line"></div>
+    </div>
+    <div class="proj-grid">
+      <div class="proj-card">
+        <div class="proj-num">01</div>
+        <div class="proj-title">accidents × weather <span>↗</span></div>
+        <div class="proj-desc">EDA on weather-dependent road accidents across India.</div>
+        <div class="tags">
+          <span class="tag">python</span>
+          <span class="tag">eda</span>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-num">02</div>
+        <div class="proj-title">netflix analysis <span>↗</span></div>
+        <div class="proj-desc">How Netflix shifted its release strategy over the years.</div>
+        <div class="tags">
+          <span class="tag">python</span>
+          <span class="tag">tableau</span>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-num">03</div>
+        <div class="proj-title">twitter harvest <span>↗</span></div>
+        <div class="proj-desc">Scraper → CSV / XLSX / PDF in one click.</div>
+        <div class="tags">
+          <span class="tag">python</span>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-num">04</div>
+        <a href="https://github.com/samwaran/datagram" target="_blank">
+        <div class="proj-title">datagram <span>↗</span></div>
+        <div class="proj-desc">Raw data → clear visualisations instantly.</div>
+        <div class="tags">
+          <span class="tag">html</span>
+          <span class="tag">js</span>
+        </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="pf-footer">
+    <a href="#">linkedin</a>
+    <a href="#">github</a>
+    <a href="#">medium</a>
+    <a href="#">email</a>
+  </footer>
+</div>
+
+<script>
+  const html = document.documentElement;
+  const btn = document.getElementById('themeToggle');
+  const label = document.getElementById('toggleLabel');
+  const modeWord = document.querySelector('.mode-word');
+
+  btn.addEventListener('click', () => {
+    const isDark = html.getAttribute('data-theme') === 'dark';
+    html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    label.textContent = isDark ? 'DARK' : 'LIGHT';
+    modeWord.textContent = isDark ? 'LIGHT' : 'DARK';
+  });
+
+  const navMenu = document.querySelector(".nav-right");
+  const hamburger = document.querySelector(".hamburger");
+
+  // Prevent menu clicks from closing
+  navMenu.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
+
+  // Prevent hamburger click bubbling
+  hamburger.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
+
+  // Close on outside click
+  document.addEventListener("click", () => {
+    navMenu.classList.remove("active");
+  });
+
+  // Close on scroll
+  window.addEventListener("scroll", () => {
+    navMenu.classList.remove("active");
+  });
+
+  // Close on resize
+  window.addEventListener("resize", () => {
+    navMenu.classList.remove("active");
+  });
+</script>
+
 </body>
-
 </html>
