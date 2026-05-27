@@ -2,8 +2,6 @@
   <img src="./.github/app.gif" alt="Porfolio website" />
 
   &#xa0;
-
-  <!-- <a href="https://samwarangithubio.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Portfolio Website</h1>
