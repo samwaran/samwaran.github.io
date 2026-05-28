@@ -593,7 +593,7 @@ a {
 
 .proj-desc {
   font-size: 0.85rem;
-  line-height: 1.6;
+  line-height: 3.5;
   color: var(--text-muted);
   flex: 1;
 }

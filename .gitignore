@@ -1,0 +1,3 @@
+.gitignore
+# Ignore the Visual Studio Code workspace file
+./samwaran.github.io.code-workspace
