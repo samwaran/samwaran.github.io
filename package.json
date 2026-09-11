@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./style.css -o ./dist/styles.css --minify",
+    "watch:css": "tailwindcss -i ./style.css -o ./dist/styles.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}

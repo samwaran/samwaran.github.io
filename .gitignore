@@ -1,3 +1,4 @@
-.gitignore
-# Ignore the Visual Studio Code workspace file
-./samwaran.github.io.code-workspace
+index.bkup
+./node_modules/
+./package-lock.json
+./package.json
