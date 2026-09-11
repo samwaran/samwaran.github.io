@@ -105,3 +105,16 @@
   stroke-dasharray: 12 24;
   animation: stream-pulse-reverse 2.4s linear infinite;
 }
+
+.footer-backdrop {
+  isolation: isolate;
+}
+.footer-background-image {
+  opacity: 0.28;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+.dark .footer-background-image {
+  opacity: 0.2;
+  mix-blend-mode: screen;
+}

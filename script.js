@@ -23,12 +23,26 @@
     });
   }
 
-  // 2. LIVE UTC CLOCK
+  // 2. LIVE IST CLOCK
   const sysTime = document.getElementById('system-time');
   if (sysTime) {
+    const istFormatter = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Asia/Kolkata',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hourCycle: 'h23'
+    });
+
     const updateTime = () => {
-      const d = new Date();
-      sysTime.textContent = 'SYS UTC: ' + d.toISOString().replace('T', ' · ').slice(0, 19) + 'Z';
+      const parts = Object.fromEntries(
+        istFormatter.formatToParts(new Date()).map(({ type, value }) => [type, value])
+      );
+      const timestamp = `${parts.year}-${parts.month}-${parts.day} · ${parts.hour}:${parts.minute}:${parts.second}`;
+      sysTime.textContent = 'SYS IST: ' + timestamp;
     };
     updateTime();
     setInterval(updateTime, 1000);
