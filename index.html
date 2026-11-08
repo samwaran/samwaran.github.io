@@ -26,6 +26,7 @@
   </script>
 </head>
 
+
 <body
   class="bg-surface font-body-md text-on-surface antialiased transition-colors duration-200 selection:bg-brand-accent selection:text-white">
   <svg aria-hidden="true" class="inline-defs-container" style="position:absolute;width:0;height:0;overflow:hidden">
@@ -268,6 +269,9 @@
                 class="font-code text-xs px-2.5 py-1 rounded bg-tag-bg border border-border-subtle text-on-surface hover:text-brand-accent transition-colors">azure</span>
               <span
                 class="font-code text-xs px-2.5 py-1 rounded bg-tag-bg border border-border-subtle text-on-surface hover:text-brand-accent transition-colors">git</span>
+              <span
+                class="font-code text-xs px-2.5 py-1 rounded bg-tag-bg border border-border-subtle text-on-surface hover:text-brand-accent transition-colors">Cloudflare
+                R2</span>
             </div>
             <div class="text-[11px] font-code text-on-surface-variant pt-2 border-t border-border-subtle">
               Relational pipelines &amp; cloud storage
@@ -724,6 +728,247 @@
               <span class="px-2 py-0.5 rounded bg-tag-bg text-on-surface-variant">statistics</span>
             </div>
           </a>
+
+          <!-- 06 // NAS Build (formerly 02, Spans 2 cols on lg) -->
+          <a class="lg:col-span-3 bg-surface-container-lowest border border-border-subtle rounded-lg p-2 sm:p-6 flex flex-col justify-between gap-5 group hover:border-brand-accent transition-all duration-200 hover:-translate-y-0.5"
+            href="https://samwaranb.medium.com/i-built-my-own-cloud-storage-because-subscriptions-werent-worth-it-anymore-82b3f54f49b2?sharedUserId=samwaranb"
+            rel="noopener" target="_blank">
+            <div class="flex flex-col gap-4">
+              <div class="flex items-center justify-between font-code text-xs border-b border-border-subtle pb-2.5">
+                <span class="text-brand-accent font-medium tracking-wide">05 // HARDWARE</span>
+                <span class="text-on-surface-variant group-hover:text-brand-accent transition-colors font-code">BUILD
+                  GUIDE
+                  ↗</span>
+              </div>
+              <div>
+                <h3
+                  class="font-headline-md font-semibold text-lg sm:text-xl text-on-surface group-hover:text-brand-accent transition-colors tracking-tight">
+                  Network Attached Storage Build
+                </h3>
+                <p class="font-body-sm text-xs sm:text-sm text-on-surface-variant leading-relaxed mt-2 line-clamp-3">
+                  Repurposed an old HP laptop into a home NAS running Ubuntu Server.
+                </p>
+              </div>
+              <!-- Visual Specimen Viewport -->
+              <div
+                class="w-full rounded border border-border-subtle bg-surface-container-low/60 overflow-hidden flex flex-col justify-between select-none">
+                <div
+                  class="flex items-center justify-between px-3 py-2 border-b border-border-subtle text-[10px] font-code text-on-surface-variant bg-surface-container-lowest/50">
+                  <div class="flex items-center gap-1.5 text-brand-accent">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand-accent"></span>
+                    <span class="uppercase font-medium">MOTHERBOARD</span>
+                  </div>
+                  <span class="">N = 8,807 TITLES</span>
+                </div>
+                <div class="h-44 w-full p-4 flex items-center justify-center">
+
+
+
+                  <svg class="w-full h-full text-on-surface" viewBox="0 0 1536 500" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" width="1536" height="500">
+
+                    <defs>
+                      <style>
+                        .b {
+                          stroke: #6b95a4;
+                          stroke-width: 3;
+                          stroke-linecap: round;
+                          stroke-linejoin: round
+                        }
+
+                        .o {
+                          stroke: #e54d2e;
+                          stroke-width: 3;
+                          stroke-linecap: round;
+                          stroke-linejoin: round
+                        }
+
+                        .f {
+                          stroke: #6b95a4;
+                          stroke-width: 1.5;
+                          opacity: .55
+                        }
+
+                        .d {
+                          stroke: #e54d2e;
+                          stroke-width: 1.5;
+                          opacity: .7
+                        }
+
+                        .bf {
+                          fill: #6b95a4;
+                          fill-opacity: .08;
+                          stroke: #6b95a4;
+                          stroke-width: 3
+                        }
+
+                        .of {
+                          fill: #e54d2e;
+                          fill-opacity: .08;
+                          stroke: #e54d2e;
+                          stroke-width: 2.5
+                        }
+
+                        .dot {
+                          fill: #e54d2e
+                        }
+                      </style>
+                    </defs>
+
+                    <!-- Network topology -->
+                    <g class="f">
+                      <path d="M768 115 V155 L520 235" />
+                      <path d="M768 155 L1016 235" />
+                      <path d="M310 210 L420 270" />
+                      <path d="M1226 210 L1116 270" />
+                      <path d="M330 365 L430 330" />
+                      <path d="M1206 365 L1106 330" />
+                    </g>
+
+                    <!-- Cloud -->
+                    <g transform="translate(768 75)">
+                      <path class="b" d="M-42 18 C-70 18 -72 -17 -45 -24
+    C-44 -56 -8 -68 12 -43
+    C36 -68 77 -48 74 -18
+    C106 -12 101 18 72 18 Z" />
+                      <path class="d" d="M-22 -8 H22 M0 -28 V13" />
+                      <circle class="dot" cx="0" cy="-8" r="4" />
+                      <circle class="dot" cx="-22" cy="-8" r="3" />
+                      <circle class="dot" cx="22" cy="-8" r="3" />
+                    </g>
+
+                    <!-- Connected client devices -->
+                    <g transform="translate(300 190)">
+                      <rect x="-22" y="-32" width="44" height="64" rx="4" class="bf" />
+                      <rect x="-15" y="-24" width="30" height="43" class="f" />
+                      <path class="o" d="M-8 25 H8" />
+                      <circle class="dot" cx="0" cy="25" r="3" />
+                    </g>
+
+                    <g transform="translate(1236 190)">
+                      <rect x="-22" y="-32" width="44" height="64" rx="4" class="bf" />
+                      <rect x="-15" y="-24" width="30" height="43" class="f" />
+                      <path class="o" d="M-8 25 H8" />
+                      <circle class="dot" cx="0" cy="25" r="3" />
+                    </g>
+
+                    <!-- Laptop client -->
+                    <g transform="translate(300 365)">
+                      <path class="b" d="M-30 -22 H30 V15 H-30 Z" />
+                      <path class="o" d="M-30 15 L-39 25 H39 L30 15" />
+                      <path class="f" d="M-23 -15 H23 V8 H-23 Z" />
+                    </g>
+
+                    <!-- External storage -->
+                    <g transform="translate(1236 365)">
+                      <rect x="-27" y="-28" width="54" height="56" rx="4" class="bf" />
+                      <rect x="-19" y="-20" width="38" height="35" rx="2" class="f" />
+                      <circle class="dot" cx="0" cy="21" r="3" />
+                    </g>
+
+                    <!-- Central NAS chassis -->
+                    <g>
+                      <!-- Top face -->
+                      <path class="bf" d="M480 235 L768 105 L1056 235 L768 370 Z" />
+
+                      <!-- Side faces -->
+                      <path class="bf" d="M480 235 V365 L768 490 V370 Z" />
+                      <path class="bf" d="M1056 235 V365 L768 490 V370 Z" />
+
+                      <!-- Main chassis edges -->
+                      <path class="b" d="M480 235 L768 370 L1056 235" />
+                      <path class="b" d="M480 365 L768 490 L1056 365" />
+                      <path class="b" d="M480 235 V365 M1056 235 V365" />
+
+                      <!-- Top motherboard -->
+                      <path class="f" d="M565 235 L768 143 L971 235 L768 330 Z" />
+                      <path class="d" d="M620 235 L768 168 L916 235" />
+
+                      <!-- CPU -->
+                      <path class="of" d="M722 215 L768 194 L814 215 L768 237 Z" />
+                      <path class="o" d="M722 215 V250 L768 272 L814 250 V215" />
+                      <path class="d" d="M741 215 L768 202 L795 215 L768 228 Z" />
+
+                      <!-- RAM -->
+                      <path class="b" d="M570 237 L630 265 V283 L570 255 Z" />
+                      <path class="b" d="M906 265 L966 237 V255 L906 283 Z" />
+                      <path class="d" d="M585 244 V262 M600 251 V269 M615 258 V276" />
+                      <path class="d" d="M921 258 V276 M936 251 V269 M951 244 V262" />
+
+                      <!-- Circuit traces -->
+                      <path class="f" d="M680 235 L700 245 V270 M856 245 L876 235 V270" />
+                      <path class="d" d="M768 272 V300 L815 320" />
+                      <path class="f" d="M722 260 L690 278 V300" />
+                    </g>
+
+                    <!-- Three visible drive bays -->
+                    <g>
+                      <!-- Bay frame -->
+                      <path class="b" d="M535 300 L768 410 L1001 300" />
+                      <path class="b" d="M535 300 V365 L768 475 L1001 365 V300" />
+
+                      <!-- Drive 1 -->
+                      <path class="bf" d="M580 320 L640 349 V414 L580 385 Z" />
+                      <path class="f" d="M594 340 L626 355 M594 352 L626 367 M594 364 L626 379" />
+                      <circle class="dot" cx="622" cy="396" r="4" />
+
+                      <!-- Drive 2 -->
+                      <path class="bf" d="M675 365 L735 394 V459 L675 430 Z" />
+                      <path class="f" d="M689 385 L721 400 M689 397 L721 412 M689 409 L721 424" />
+                      <circle class="dot" cx="717" cy="441" r="4" />
+
+                      <!-- Drive 3 -->
+                      <path class="bf" d="M801 394 L861 365 V430 L801 459 Z" />
+                      <path class="f" d="M815 400 L847 385 M815 412 L847 397 M815 424 L847 409" />
+                      <circle class="dot" cx="839" cy="441" r="4" />
+
+                      <!-- Ventilation -->
+                      <path class="f" d="M900 345 L962 315 M900 360 L962 330 M900 375 L962 345" />
+                    </g>
+
+                    <!-- Front status indicators -->
+                    <g>
+                      <circle class="dot" cx="900" cy="405" r="5" />
+                      <circle class="b" cx="920" cy="395" r="4" />
+                      <circle class="b" cx="938" cy="386" r="4" />
+                      <path class="o" d="M960 375 L980 365" />
+                    </g>
+
+                    <!-- Network links -->
+                    <g class="o">
+                      <path d="M322 210 L410 255" />
+                      <path d="M1214 210 L1126 255" />
+                      <path d="M768 120 V145" />
+                    </g>
+
+                    <!-- Connection nodes -->
+                    <g>
+                      <circle class="dot" cx="410" cy="255" r="4" />
+                      <circle class="dot" cx="1126" cy="255" r="4" />
+                      <circle class="dot" cx="768" cy="145" r="4" />
+                      <circle class="dot" cx="430" cy="330" r="4" />
+                      <circle class="dot" cx="1106" cy="330" r="4" />
+                    </g>
+
+                  </svg>
+
+
+
+
+                </div>
+                <div
+                  class="px-3 py-1.5 border-t border-border-subtle bg-surface-container-lowest/50 text-[10px] font-code text-on-surface-variant/70">
+                  SPECIMEN: HP 15-R041TX
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-2 pt-3 border-t border-border-subtle font-code text-[11px]">
+              <span class="px-2 py-0.5 rounded bg-tag-bg text-on-surface-variant">Linux</span>
+              <span class="px-2 py-0.5 rounded bg-tag-bg text-on-surface-variant">Docker</span>
+              <span class="px-2 py-0.5 rounded bg-tag-bg text-on-surface-variant">Bash</span>
+            </div>
+          </a>
+
         </div>
       </div>
     </section>
